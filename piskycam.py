@@ -23,7 +23,7 @@ if isdir is False:
 camera = PiCamera()
 
 def take_pic():
-    dateraw= datetime.datetime.now()
+    dateraw = datetime.datetime.now()
     date_time_format = dateraw.strftime("%Y-%m-%d")
     time_format = dateraw.strftime("%H:%M:%S")
     picture_filename = '/home/pi/' + date_time_format + '/' + time_format +".jpg"
