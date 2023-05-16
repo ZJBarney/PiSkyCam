@@ -11,7 +11,7 @@ long_data = ""
 DDM_lat = ""
 DDM_long = ""
 
-#sleep(60)  #Time delay to allow system to boot and update time/date
+sleep(60)  #Time delay to allow system to boot and update time/date
        
 def add_log(log_info, x):
     save_path = '/media/pi/extdrive/log_' + date_time_format + '.txt'
