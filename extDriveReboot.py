@@ -17,7 +17,7 @@ while True:
     dateraw= datetime.datetime.now()
     hms_time = dateraw.strftime('%H%M%S')
     sleep(1)
-    if int(hms_time) % 10 == 0:
+    if int(hms_time) % tdelay == 0:
         if isdir is True:
             print('External Drive Present')
             temp = str(CPUTemperature())
